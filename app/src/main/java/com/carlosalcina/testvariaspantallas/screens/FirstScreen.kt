@@ -23,8 +23,9 @@ fun FirstBody(navController: NavController){
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+
         Text("Holaa")
-        Button(onClick = {navController.navigate(route = AppScreen.SecondScreen.route)}) {
+        Button(onClick = {navController.navigate(route = AppScreen.SecondScreen.route + "/xd")}) {
             Text("Ir a 2")
         }
     }
